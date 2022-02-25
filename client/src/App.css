@@ -1,19 +1,132 @@
-.App {
+html,
+body{
+  margin: 0px;
+  padding: 0px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+/* header */
+
+/* header {
+  text-align: left;
+} */
+
+.descriptionText {
+  color: rgb(110, 70, 161);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* link */
+
+.headerLinkColor {
+  color: blue
+}
+/* a {
+  text-decoration: none;
+  color: white;
+  
+} */
+
+/* table */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border: solid 2px black;
 }
 
-.App-header {
+thead {
+  background-color: lightgrey;
+  color: white;
+
+}
+
+td {
+  padding: 10px;
+  
+}
+
+.authorColor {
+  color: rgb(110, 70, 161);
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+
+/* form */
+
+form {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  width: 200px;
+  border: solid 2px black;
+  display:inline-block;
+}
+
+.formButton {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  width: 75px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* edit button */
+.editButton {
+  background-color: #b6afa5;
+  /* color: white; */
+}
+
+/* .linkColor {
+  text-decoration: none;
+  color: white;
+  
+} */
+
+/* delete button */
+.deleteButton{
+  background-color: #d8b9ba;
+  /* color: white; */
+  
+
+}
+
+.editButton, .deleteButton {
+  border: none;
+  width: 75px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 175px;
+  
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+
+/* cancel / submit button */
+
+
+
+
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +135,5 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
